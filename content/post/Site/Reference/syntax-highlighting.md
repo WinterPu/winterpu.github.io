@@ -1,20 +1,14 @@
 ---
-title: "Hugo 内置的 Chroma 语法高亮"
-description: "描述下 Chroma 所支持的各种语法及高亮效果展示"
-keywords: "Chroma,语法,高亮"
-
-date: 2022-06-07T19:09:52+08:00
-lastmod: 2022-06-07T19:09:52+08:00
-
+title: Hugo 内置的 Chroma 语法高亮
+description: 描述下 Chroma 所支持的各种语法及高亮效果展示
+keywords: Chroma,语法,高亮
+date: 2019-01-01T21:02:32
+lastmod: 2019-01-01T21:02:32
 categories:
- - 示例文章
- - 语法
+  - Site
+  - 示例文章
 tags:
-  - 语法
-  - 高亮
-  - Chroma
-
-url: demo/syntax-highlighting.html
+  - SiteDemo
 ---
 
 Hugo 通过 Chroma 提供非常快速的语法高亮显示，现 Hugo 中使用 Chroma 作为代码块高亮支持，它内置在 Go 语言当中，速度是真的非常、非常快，而且最为重要的是它也兼容之前我们使用的 Pygments 方式。

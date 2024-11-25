@@ -1,20 +1,15 @@
 ---
-title: "支持 Emoji 表情"
-description: "Hugo 和 NexT 中的 Emoji 的用法指南。"
-keywords: "Hugo,NexT,Emoji"
-
-date: 2022-06-04T19:46:45+08:00
-lastmod: 2022-06-04T19:46:45+08:00
-
+title: 支持 Emoji 表情
+description: Hugo 和 NexT 中的 Emoji 的用法指南。
+keywords: Hugo,NexT,Emoji
+date: 2019-01-01T21:02:32
+lastmod: 2019-01-01T21:02:32
 categories:
- - 示例文章
- - 语法
-
+  - Site
+  - 示例文章
 tags:
- - 表情
- - emoji
-
-url: "demo/emoji-support.html"
+  - SiteDemo
+  - Emoji
 ---
 
 Emoji 可以通过多种方式在 Hugo 项目中启用。

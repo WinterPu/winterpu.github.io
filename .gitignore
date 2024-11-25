@@ -3,3 +3,7 @@
 resources/
 public/
 config/development/
+
+
+# Obsidian
+content/.obsidian/*

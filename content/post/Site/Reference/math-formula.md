@@ -1,21 +1,15 @@
 ---
-title: "数学公式渲染"
-description: "主题支持mathjs和katex两种不同插件的数学公式渲染方案。"
-keywords: "math,formula"
-
-date: 2022-09-11T10:16:02+08:00
-lastmod: 2022-09-11T10:16:02+08:00
-
+title: 数学公式渲染
+description: 主题支持mathjs和katex两种不同插件的数学公式渲染方案。
+keywords: math,formula
+date: 2019-01-01T21:02:32
+lastmod: 2019-01-01T21:02:32
 categories:
-  - 第三方引入
-  - 数学公式
+  - Site
+  - 示例文章
 tags:
+  - SiteDemo
   - 数学公式
-  - mathjax
-  - katex
-
-
-url: "demo/math-formula.html"
 math: mathjax
 ---
 

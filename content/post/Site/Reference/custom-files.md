@@ -1,20 +1,14 @@
 ---
-title: "支持用户自定义设计"
-description: "用户可以通过自定义文件配置，实现对站点的样式和布局进行个性化的调整。"
-keywords: "custom,files,layout"
-
-date: 2022-09-10T21:02:32+08:00
-lastmod: 2022-09-10T21:02:32+08:00
-
+title: 支持用户自定义设计
+description: 用户可以通过自定义文件配置，实现对站点的样式和布局进行个性化的调整。
+keywords: custom,files,layout
+date: 2019-01-01T21:02:32
+lastmod: 2019-01-01T21:02:32
 categories:
+  - Site
   - 示例文章
-
 tags:
-  - 自定义
-  - 个性化
-  - 布局
-
-url: "demo/custom-files.html"
+  - SiteDemo
 toc: true
 ---
 

@@ -1,25 +1,20 @@
 ---
-title: "Markdown 语法支持"
-description: "描述下 NexT 主题所支持的各种 markdown 语法及效果展示。"
+title: Markdown 语法支持
+description: 描述下 NexT 主题所支持的各种 markdown 语法及效果展示。
 isCJKLanguage: false
-
-lastmod: 2022-06-03T11:52:18+08:00
-publishDate: 2022-06-03T11:52:18+08:00
-
+date: 2019-01-01T21:02:32
+lastmod: 2019-01-01T21:02:32
+publishDate: 2019-01-01T21:02:32
 author: Mainroad
 originLink: https://mainroad-demo.netlify.app/demo/basic-elements/
-
 categories:
- - 示例文章
- - Markdown语法
- 
+  - Site
+  - 示例文章
 tags:
- - Markdown
- - 语法
-
+  - SiteDemo
+  - Markdown
 toc: false
 draft: false
-url: demo/markdown-syntax.html
 ---
 
 仅以此篇文章来测试下在 `NexT` 主题中在通过 `Hugo` 引擎来建站时，是否支持 `Markdown` 文件内容中所写的各种语法，并展示下实际的效果。

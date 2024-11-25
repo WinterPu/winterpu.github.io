@@ -15,7 +15,7 @@
 baseURL: /
 # 站点标题
 # Website title
-title: Hugo NexT
+title: WinterPu
 # 主题名称
 # Theme name
 theme: hugo-theme-next
@@ -108,4 +108,7 @@ enableRobotsTXT: true
 # Compress all files when output
 minify:
   minifyOutput: true
-  
+
+
+ignoreFiles:
+  - "content/_templates/.*"

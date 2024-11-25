@@ -1,20 +1,16 @@
 ---
-title: "没有H1-6标题头和评论的文章"
-description: "用于测试在没有H1-6标题头时，文章的目录导航是否会直接关闭，并关闭评论功能。"
-keywords: "toc,header"
-
-date: 2022-10-06T09:02:26+08:00
-lastmod: 2022-10-30T21:03:16+08:00
-
+title: 没有H1-6标题头和评论的文章
+description: 用于测试在没有H1-6标题头时，文章的目录导航是否会直接关闭，并关闭评论功能。
+keywords: toc,header
+date: 2019-01-01T21:02:32
+lastmod: 2019-01-01T21:02:32
 categories:
+  - Site
   - 示例文章
 tags:
-  - toc
-  - 标题
-
+  - SiteDemo
 comment:
   enable: false
-url: "demo/no-header-title.html"
 ---
 
 刘慈欣2018克拉克奖获奖感言（部分内容节选）。

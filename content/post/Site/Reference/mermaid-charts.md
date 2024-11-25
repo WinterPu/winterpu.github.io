@@ -1,19 +1,15 @@
 ---
-title: "Mermaid支持流程图"
-description: "mermaid-flow-chart"
-keywords: "mermaid,flow,chart"
-
-date: 2022-09-18T20:58:13+08:00
-lastmod: 2022-09-18T20:58:13+08:00
-
+title: Mermaid支持流程图
+description: mermaid-flow-chart
+keywords: mermaid,flow,chart
+date: 2019-01-01T21:02:32
+lastmod: 2019-01-01T21:02:32
 categories:
-  - 第三方引入
-  - 图序功能
+  - Site
+  - 示例文章
 tags:
+  - SiteDemo
   - 流程图
-  - 时序图
-
-url: "demo/mermaid-charts.html"
 mermaid: true
 toc: true
 ---
