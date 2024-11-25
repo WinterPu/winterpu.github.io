@@ -102,6 +102,13 @@
       timeout: 2
       visible: true
 
+    - name: SMMS
+      desc: 图床工具
+      avatar:  https://smms.app/favicon.ico
+      link: https://smms.app/
+      timeout: 2
+      visible: true
+
     - name: Date-time converter
       desc: from it-tools.tech
       avatar:  https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
