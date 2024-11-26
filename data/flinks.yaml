@@ -128,7 +128,7 @@
 
 
 - FLinksTitle: 工具收藏
-  FLinksDesc: 一些 Blog
+  FLinksDesc: 一些工具 Tools
   FLinksList:
     - name: Picx
       desc: 图床工具
