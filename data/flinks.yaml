@@ -27,7 +27,7 @@
 
     - name: Fab
       desc: UE 资源网站
-      avatar: https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      avatar: https://static.fab.com/static/builds/web/dist/frontend/assets/images/common/favicon/b62f8ee0cdb5e4fa13eff55de00d74ed-v1.png
       link: https://www.fab.com/
       timeout: 2
       visible: true
@@ -51,7 +51,7 @@
 
     - name: Unreal Engine Community Wiki
       desc: Unreal Engine Community Wiki
-      avatar: https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      avatar: https://unrealcommunity.wiki/favicon.png
       link: https://unrealcommunity.wiki/
       timeout: 2
       visible: true
@@ -93,14 +93,14 @@
 
     - name: blueroses
       desc: Blog
-      avatar: https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      avatar: https://www.blueroses.top/images/favicon.png
       link: https://www.blueroses.top/categories/UnrealEngine/
       timeout: 2
       visible: true
 
     - name: papalqi
       desc: Papalqi 的博客
-      avatar: https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      avatar: https://papalqi.cn/images/logo.png
       link: https://papalqi.cn/posts/
       timeout: 2
       visible: true
