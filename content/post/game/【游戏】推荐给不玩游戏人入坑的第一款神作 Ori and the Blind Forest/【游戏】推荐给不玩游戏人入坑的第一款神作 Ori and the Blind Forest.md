@@ -132,11 +132,11 @@ Up:Gamker攻壳
 Up: 雁老师
 ```
 
-![Untitled](/post/Game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled.png)
+![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled.png)
 
-![Untitled](/post/Game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%201.png)
+![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%201.png)
 
-![Untitled](/post/Game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%202.png)
+![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%202.png)
 
 近景层和中景层中，每一个画面元素都无时无刻地发生着细微地变化，它们在潜移默化地暗示你，这座森林并不是设备中的影像，而是一片活生生的自然。处处是风景，你找不到一处地方是不美的。
 
@@ -250,7 +250,7 @@ Up:黑舟
 
 ## 制作组幕后的故事
 
-![Untitled](/post/Game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%203.png)
+![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%203.png)
 
 [万字揭秘神作的炼成！奥日玩家不得不看的幕后故事！_奥日与黑暗森林_游戏杂谈](https://www.bilibili.com/video/BV1eF411Q7Ho)
 
@@ -267,9 +267,9 @@ Up:游戏茶馆君
 
 可以看看Ori 早期的雏形：
 
-![Untitled](/post/Game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%204.png)
+![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%204.png)
 
-![Untitled](/post/Game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%205.png)
+![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%205.png)
 
 我还记得一个制作人说过：**We have to protect the ugly baby**
 
@@ -287,9 +287,9 @@ Up: 走貓CATTO
 Youtube Channel:James Benson
 ```
 
-![Untitled](/post/Game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%206.png)
+![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%206.png)
 
-![Untitled](/post/Game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%207.png)
+![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%207.png)
 
 > 以上转载，侵权删除
 >
