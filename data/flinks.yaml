@@ -91,6 +91,41 @@
       timeout: 2
       visible: true
 
+    - name: blueroses
+      desc: Blog
+      avatar: https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      link: https://www.blueroses.top/categories/UnrealEngine/
+      timeout: 2
+      visible: true
+
+    - name: papalqi
+      desc: Papalqi 的博客
+      avatar: https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      link: https://papalqi.cn/posts/
+      timeout: 2
+      visible: true
+
+    - name: dawnarc
+      desc: 白金翰大堂经理
+      avatar: https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      link: https://dawnarc.com/categories/#posts-list-unrealengine4
+      timeout: 2
+      visible: true
+
+    - name: kekec
+      desc: Blog
+      avatar: https://www.cnblogs.com/favicon.ico
+      link: https://www.cnblogs.com/kekec
+      timeout: 2
+      visible: true
+
+    - name: 0向往0
+      desc: 图形渲染、游戏引擎、GPU。知乎：www.zhihu.com/people/timlly-chang。UE技术群：943549515，微信群先加81079389（注明博客园）。
+      avatar: https://www.cnblogs.com/favicon.ico
+      link: https://www.cnblogs.com/timlly
+      timeout: 2
+      visible: true
+
 
 - FLinksTitle: 工具收藏
   FLinksDesc: 一些 Blog
