@@ -396,7 +396,7 @@ followMe:
 # Easily browse and edit blog source code online.
 postEdit:
   enable: true
-  url: https://github.com/WinterPu/blog/tree/main
+  url: https://github.com/WinterPu/winterpu.github.io/tree/main/content/
 
 
 # 设置文本的对齐方式
