@@ -689,7 +689,7 @@ waline:
   reactionTitle: "你认为这篇文章怎么样？"
   # 请注意换成个人的 Waline Server 服务器地址
   # Please replace this with your waline server URL
-  serverURL: https://winterpu-blog-waline.vercel.app
+  serverURL: https://winterpu-blog-waline-winterpus-projects.vercel.app/
 
 # Artalk 评论插件
 # 更多配置信息请参考：https://artalk.js.org
