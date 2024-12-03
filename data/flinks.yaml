@@ -126,6 +126,17 @@
       timeout: 2
       visible: true
 
+    
+- FLinksTitle: Readings
+  FLinksDesc: 一些阅读收藏
+  FLinksList:
+    - name: 实时渲染第四版
+      desc: wolai link - realtime rendering 4th
+      avatar:  https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      link: https://www.wolai.com/dpaCHvw9WZRaB3aM2BzF9j
+      timeout: 2
+      visible: true
+
 
 - FLinksTitle: 工具收藏
   FLinksDesc: 一些工具 Tools
@@ -151,6 +162,14 @@
       timeout: 2
       visible: true
 
+    - name: waline comment system
+      desc: waline - ui
+      avatar:  https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      link: https://winterpu-blog-waline.vercel.app
+      timeout: 2
+      visible: true
+
+    
 
 - FLinksTitle: Hugo 建站相关
   FLinksDesc: Hugo 官网 以及 Hugo NexT Theme
