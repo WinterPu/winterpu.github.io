@@ -59,6 +59,8 @@ extlink_desc: "[extlink] 外部链接地址, 访问时直接跳转"
 
 [Ori and the blind forest 官方宣传_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1BE411M7Hk/)
 
+<iframe width="560" height="315"  src="//player.bilibili.com/player.html?isOutside=true&aid=94719140&bvid=BV1BE411M7Hk&cid=161698363&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ```jsx
 【转载自】【Ori and the blind forest 官方宣传】 https://www.bilibili.com/video/BV1BE411M7Hk/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
 Up:么泊桑
@@ -85,6 +87,9 @@ Ref: [https://zh.wikipedia.org/zh-cn/平台游戏](https://zh.wikipedia.org/zh-c
 整体参考了Gamker 的评测解说，其他各部分会在其开头有所标注。
 
 [不只是美那么简单！口口相传的《Ori》系列鉴赏！【就知道玩游戏92】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1sE411w7Rv)
+
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=98186031&bvid=BV1sE411w7Rv&cid=167589501&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 
 ```jsx
 【转载自】【不只是美那么简单！口口相传的《Ori》系列鉴赏！【就知道玩游戏92】】 https://www.bilibili.com/video/BV1sE411w7Rv/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
@@ -175,9 +180,15 @@ Ref：[https://baike.baidu.com/item/NEW AGE/181522#:~:text=New Age](https://baik
 
 [【OST】Ori and the Blind Forest《奥日与黑暗森林》专辑_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1qs411S7ub)
 
+<iframe  width="560" height="315"  src="//player.bilibili.com/player.html?isOutside=true&aid=2120173&bvid=BV1qs411S7ub&cid=3291360&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
 第二部： [https://www.bilibili.com/video/BV1AE411K7yg](https://www.bilibili.com/video/BV1AE411K7yg)
 
 [《Ori and the Will of the Wisps奥里与精灵意志》游戏原声(附.flac&320mp3)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1AE411K7yg)
+
+<iframe  width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=95231647&bvid=BV1AE411K7yg&cid=162573612&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 
 ```jsx
 【转载自】【【OST】Ori and the Blind Forest《奥日与黑暗森林》专辑】 https://www.bilibili.com/video/BV1qs411S7ub/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
@@ -208,6 +219,9 @@ Up:史詩のようにEricHerilan
 
 [【奥日与黑暗森林】银之树连滚带爬吭哧瘪肚屁滚尿流手忙脚乱且收集率0%逃亡_哔哩哔哩bilibili_奥日与黑暗森林_游戏实况](https://www.bilibili.com/video/BV1pWg1enEo1)
 
+<iframe  width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=112649593424657&bvid=BV1pWg1enEo1&cid=500001589476892&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
 ```jsx
 【转载自】【【奥日与黑暗森林】银之树连滚带爬吭哧瘪肚屁滚尿流手忙脚乱且收集率0%逃亡】 https://www.bilibili.com/video/BV1pWg1enEo1/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
 
@@ -232,6 +246,9 @@ Up:暮灼灼
 
 [一款用bgm登上央视的神作！《奥日》系列究竟讲了什么故事？_哔哩哔哩bilibili_剧情](https://www.bilibili.com/video/BV1344y1V7Vg)
 
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=980480587&bvid=BV1344y1V7Vg&cid=571033717&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
 ```jsx
 【转载自】【一款用bgm登上央视的神作！《奥日》系列究竟讲了什么故事？】 https://www.bilibili.com/video/BV1344y1V7Vg/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
 Up: 雁老师
@@ -243,6 +260,9 @@ Up: 雁老师
 
 [通关了也不知道的彩蛋和秘密剧情，盘点奥日初代的彩蛋与剧情细节【黑舟 | 看看你都错过了什么！ 01】_奥日与黑暗森林](https://www.bilibili.com/video/BV1Tu41127ai)
 
+<iframe  width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=508544614&bvid=BV1Tu41127ai&cid=494435891&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
 ```jsx
 【转载自】【通关了也不知道的彩蛋和秘密剧情，盘点奥日初代的彩蛋与剧情细节【黑舟 | 看看你都错过了什么！ 01】】 https://www.bilibili.com/video/BV1Tu41127ai/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
 Up:黑舟
@@ -253,6 +273,9 @@ Up:黑舟
 ![Untitled](/post/game/【游戏】推荐给不玩游戏人入坑的第一款神作%20Ori%20and%20the%20Blind%20Forest/Untitled%203.png)
 
 [万字揭秘神作的炼成！奥日玩家不得不看的幕后故事！_奥日与黑暗森林_游戏杂谈](https://www.bilibili.com/video/BV1eF411Q7Ho)
+
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=273541046&bvid=BV1eF411Q7Ho&cid=1201828839&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 
 ```jsx
 【转载自】【万字揭秘神作的炼成！奥日玩家不得不看的幕后故事！】 https://www.bilibili.com/video/BV1eF411Q7Ho/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
@@ -276,6 +299,9 @@ Up:游戏茶馆君
 可能当下你手中的孩子很丑，可能它没有那么的好看。请好好的呵护，它是会发光的。
 
 [《奥日与黑暗森林》游戏的幕后设计与制作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1wE411V7mf)
+
+<iframe width="560" height="315"  src="//player.bilibili.com/player.html?isOutside=true&aid=96096718&bvid=BV1wE411V7mf&cid=164046866&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 
 [Ori and the Blind Forest - Game Design Reel](https://www.youtube.com/watch?v=HTksBJeoa1A&t=145s)
 
