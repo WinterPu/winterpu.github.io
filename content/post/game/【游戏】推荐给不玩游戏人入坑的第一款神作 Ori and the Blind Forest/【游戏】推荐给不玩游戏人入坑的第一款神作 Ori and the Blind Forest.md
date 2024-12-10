@@ -80,6 +80,13 @@ Ref: [https://zh.wikipedia.org/zh-cn/平台游戏](https://zh.wikipedia.org/zh-c
 
 那么，它到底是好在哪儿。
 
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=782132496&bvid=BV1C24y157JR&cid=1086358672&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+```jsx
+【转载自】【PDD看奥日2宣传片觉得只有美术好 然后玩了个通宵】 https://www.bilibili.com/video/BV1C24y157JR/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
+Up主：PDD在B站
+```
+
 ## Reference
 
 由于我目前美术与音乐积累还相对较少，有很多地方想要准确地说出它到底好在哪儿还不容易。所以我也借鉴引用了各路大神的解说, 推荐有时间有兴趣可以将原视频再看一下。
@@ -304,6 +311,8 @@ Up:游戏茶馆君
 
 
 [Ori and the Blind Forest - Game Design Reel](https://www.youtube.com/watch?v=HTksBJeoa1A&t=145s)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HTksBJeoa1A?si=guzq9OfoF5hVE7H5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ```jsx
 【转载自】【《奥日与黑暗森林》游戏的幕后设计与制作】 https://www.bilibili.com/video/BV1wE411V7mf/?share_source=copy_web&vd_source=75563d8e3e0fdfc43ab443705020d9db
