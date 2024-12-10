@@ -11,7 +11,6 @@ tags:
   - AIGC
 author_desc: 原文作者
 author: WinterPu
-link: 
 imgs_desc: 图片链接，用在open graph和twitter卡片上
 imgs: 
 expand_desc: 是否在首页展开内容，true 为展开
