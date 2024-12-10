@@ -4,6 +4,8 @@ resources/
 public/
 config/development/
 
+.DS_Store
+
 
 # Obsidian
 content/.obsidian/*
