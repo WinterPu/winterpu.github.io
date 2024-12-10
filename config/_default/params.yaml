@@ -376,8 +376,8 @@ rewardSets:
   # Donate type
   # Usage: `name:image url`
   reward:
-    wechatpay: /imgs/wechat-pay.png
-    alipay: /imgs/ali-pay.png
+    wechatpay: https://github.com/WinterPu/picx-images-hosting/raw/master/reward/wechat_reward.7zqhdl97d5.webp
+    alipay: https://github.com/WinterPu/picx-images-hosting/raw/master/reward/alipay_reward.86tp90uw6i.webp
     #paypal: /images/paypal.png
     #bitcoin: /images/bitcoin.png
 
