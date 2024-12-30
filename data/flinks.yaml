@@ -126,6 +126,13 @@
       timeout: 2
       visible: true
 
+    - name: italink
+      desc: ModernGraphicsEngineGuide
+      avatar:  https://github.com/WinterPu/picx-images-hosting/raw/master/website-icon.3uuveoht9a.webp
+      link: https://italink.github.io/ModernGraphicsEngineGuide/
+      timeout: 2
+      visible: true
+
     
 - FLinksTitle: Readings
   FLinksDesc: 一些阅读收藏
