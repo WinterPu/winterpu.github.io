@@ -46,28 +46,33 @@ main:
     pageref: /categories/life
     pre: star-of-life
     weight: 6
+  - identifier: Study
+    name: 文章 - 学习
+    pageref: /categories/study
+    pre: book
+    weight: 7
   - identifier: Game
     name: 文章 - 游戏
     pageref: /categories/game
     pre: gamepad
-    weight: 7
+    weight: 8
   - identifier: ai
     name: 文章 - AI
     pageref: /categories/ai
     pre: brain
-    weight: 8
+    weight: 9
   - identifier: Showcase
     name: 展示柜 Showcase
     pageref: /categories/showcase
     pre: inbox
-    weight: 9
+    weight: 10
   - identifier: site
     name: 建站心得
     pageref: /categories/site
     pre: sitemap
-    weight: 10
+    weight: 11
   - identifier: flinks
     name: 友情链接
     pageref: /flinks.html
     pre: thumbs-up
-    weight: 11
+    weight: 12
