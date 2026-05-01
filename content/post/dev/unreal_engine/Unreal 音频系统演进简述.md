@@ -23,7 +23,7 @@ comment:
 toc_desc: 是否关闭文章目录功能，true 为开启
 toc: true
 url_desc: 绝对访问路径
-url: /post/dev/unreal_engine/ue-audio-system-evolution/
+url: 
 weight_desc: 开启文章置顶，数字越小越靠前
 weight: 
 math_desc: 开启数学公式渲染，可选值： mathjax, katex
@@ -64,7 +64,7 @@ extlink_desc: "[extlink] 外部链接地址, 访问时直接跳转"
 
 ## UE4旧版Audio Engine
 
-![image.png](<./assets/Unreal 音频系统演进简述/image.png>)
+![image.png](/post/dev/unreal_engine/ue-audio-system-evolution/image.png)
 
 - Project Modules: 跟业务走的逻辑
 - Engine Modules： 比如 Sound Cues 之类的
@@ -79,7 +79,7 @@ extlink_desc: "[extlink] 外部链接地址, 访问时直接跳转"
 添加了 AudioMixer 这一层
 **Audio Mixer** 是虚幻引擎的的全功能、多平台的音频渲染器。这款强大的音频引擎在《堡垒之夜》中首次使用，随后被添加到虚幻引擎4.24中。
 
-![image.png](<./assets/Unreal 音频系统演进简述/image%201.png>)
+![image.png](/post/dev/unreal_engine/ue-audio-system-evolution/image%201.png)
 
 - 新的AudioEngine 会多一层 AudioMixerModule
 - 缩减了 PlatformModules ,所以会很 Thin
@@ -91,7 +91,7 @@ extlink_desc: "[extlink] 外部链接地址, 访问时直接跳转"
 
  UseAudioMixer 是是 从 UE4 旧版本 到 UE4 新版本
 
-![image.png](<./assets/Unreal 音频系统演进简述/image%202.png>)
+![image.png](/post/dev/unreal_engine/ue-audio-system-evolution/image%202.png)
 
 所以 UseAudioMixer  在 UE 427 还用于控制是否加载AudioMixerModule
 
@@ -109,7 +109,7 @@ AudioMixerModuleName=AudioMixerAudioUnit
 
 ```
 
-![image.png](<./assets/Unreal 音频系统演进简述/image%203.png>)
+![image.png](/post/dev/unreal_engine/ue-audio-system-evolution/image%203.png)
 
 ```cpp
 	if (bUsingAudioMixer && AudioMixerModuleName.Len() > 0)
@@ -139,7 +139,7 @@ UE5中应该已经没用处了，详细该怎么设置参考Config ini
 AudioMixerModuleName=AudioMixerAudioUnit
 ```
 
-![image.png](<./assets/Unreal 音频系统演进简述/image%204.png>)
+![image.png](/post/dev/unreal_engine/ue-audio-system-evolution/image%204.png)
 
 UE5.4
 
