@@ -54,6 +54,9 @@ git submodule update --remote --merge
 Execute the `startup.sh` boot start script file which is under site root directory, when see some words like `stop` that mean success, and open browser visit
  [http://localhost:1414/](http://localhost:1414/) will enjoy yourself.
 
+> **Repo Note**
+> This repository stores post images under `content/**/.assets/**` and syncs them into `static/` before preview/build. The final published image path follows each post front matter `url`, so nested content directories are supported.
+
 ```shell
 $ sh startup.sh
 ========================================

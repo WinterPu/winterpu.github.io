@@ -7,6 +7,48 @@ $staticDir = Join-Path $rootDir 'static'
 $stateDir = Join-Path $rootDir '.content-assets-sync'
 $manifestFile = Join-Path $stateDir 'targets.txt'
 
+function Get-PublishRelativeDir {
+    param(
+        [string]$markdownFile,
+        [string]$fallbackRelativeDir
+    )
+
+    if (-not (Test-Path -LiteralPath $markdownFile -PathType Leaf)) {
+        return $fallbackRelativeDir
+    }
+
+    $lines = Get-Content -LiteralPath $markdownFile
+    $frontMatterOpened = $false
+    $frontMatterClosed = $false
+
+    foreach ($line in $lines) {
+        if (-not $frontMatterOpened) {
+            if ($line -eq '---') {
+                $frontMatterOpened = $true
+            }
+            continue
+        }
+
+        if ($line -eq '---') {
+            $frontMatterClosed = $true
+            break
+        }
+
+        if ($line -match '^url:\s*(.+?)\s*$') {
+            $urlPath = $matches[1].Trim()
+            if ($urlPath) {
+                return $urlPath.Trim('/').Replace('/', [IO.Path]::DirectorySeparatorChar)
+            }
+        }
+    }
+
+    if (-not $frontMatterClosed) {
+        return $fallbackRelativeDir
+    }
+
+    return $fallbackRelativeDir
+}
+
 New-Item -ItemType Directory -Path $staticDir -Force | Out-Null
 New-Item -ItemType Directory -Path $stateDir -Force | Out-Null
 
@@ -22,7 +64,7 @@ if (Test-Path -LiteralPath $manifestFile) {
 
 Get-ChildItem -Path $staticDir -Filter '.content-assets-sync' -Recurse -File -ErrorAction SilentlyContinue | Remove-Item -Force
 
-$sourceDirs = Get-ChildItem -Path $contentDir -Directory -Recurse | Where-Object { $_.Name -eq 'assets' } | Sort-Object FullName
+$sourceDirs = Get-ChildItem -Path $contentDir -Directory -Recurse | Where-Object { $_.Name -eq '.assets' } | Sort-Object FullName
 foreach ($sourceDir in $sourceDirs) {
     $relativePath = $sourceDir.FullName.Substring($contentDir.Length).TrimStart([char[]]@('\', '/'))
     $targetDir = Join-Path $staticDir $relativePath
@@ -35,7 +77,8 @@ foreach ($sourceDir in $sourceDirs) {
         if ($child.PSIsContainer) {
             $matchingMarkdown = Join-Path $parentDir ($child.Name + '.md')
             if (Test-Path -LiteralPath $matchingMarkdown -PathType Leaf) {
-                $pageAssetsDir = Join-Path (Join-Path (Join-Path $staticDir $relativeParent) $child.Name) 'assets'
+                $pageRelativeDir = Get-PublishRelativeDir -markdownFile $matchingMarkdown -fallbackRelativeDir (Join-Path $relativeParent $child.Name)
+                $pageAssetsDir = Join-Path (Join-Path $staticDir $pageRelativeDir) 'assets'
                 New-Item -ItemType Directory -Path $pageAssetsDir -Force | Out-Null
                 Copy-Item -LiteralPath $child.FullName -Destination (Join-Path $pageAssetsDir $child.Name) -Recurse -Force
                 $managedTargets += $pageAssetsDir

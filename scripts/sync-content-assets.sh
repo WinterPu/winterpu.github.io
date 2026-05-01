@@ -9,6 +9,45 @@ STATIC_DIR="$ROOT_DIR/static"
 STATE_DIR="$ROOT_DIR/.content-assets-sync"
 MANIFEST_FILE="$STATE_DIR/targets.txt"
 
+get_publish_relative_dir() {
+  local markdown_file="$1"
+  local fallback_relative_dir="$2"
+  local url_path
+
+  if [[ ! -f "$markdown_file" ]]; then
+    printf '%s\n' "$fallback_relative_dir"
+    return
+  fi
+
+  url_path="$({
+    awk '
+      BEGIN { in_frontmatter = 0 }
+      $0 == "---" {
+        if (in_frontmatter == 0) {
+          in_frontmatter = 1
+          next
+        }
+        exit
+      }
+      in_frontmatter == 1 && $0 ~ /^url:[[:space:]]*/ {
+        sub(/^url:[[:space:]]*/, "", $0)
+        gsub(/^[[:space:]]+|[[:space:]]+$/, "", $0)
+        print $0
+        exit
+      }
+    ' "$markdown_file"
+  } | tr -d '\r')"
+
+  if [[ -n "$url_path" ]]; then
+    url_path="${url_path#/}"
+    url_path="${url_path%/}"
+    printf '%s\n' "$url_path"
+    return
+  fi
+
+  printf '%s\n' "$fallback_relative_dir"
+}
+
 mkdir -p "$STATIC_DIR"
 mkdir -p "$STATE_DIR"
 
@@ -51,7 +90,8 @@ while IFS= read -r source_dir; do
     fi
 
     if [[ -d "$child_path" && -f "$parent_dir/$child_name.md" ]]; then
-      page_assets_dir="$STATIC_DIR/$rel_parent/$child_name/assets"
+      page_relative_dir="$(get_publish_relative_dir "$parent_dir/$child_name.md" "$rel_parent/$child_name")"
+      page_assets_dir="$STATIC_DIR/$page_relative_dir/assets"
       copy_directory "$child_path" "$page_assets_dir/$child_name"
       record_target "$page_assets_dir"
       continue
@@ -66,6 +106,6 @@ while IFS= read -r source_dir; do
   if [[ $has_base_assets -eq 1 ]]; then
     record_target "$target_dir"
   fi
-done < <(find "$CONTENT_DIR" -type d -name assets | sort)
+done < <(find "$CONTENT_DIR" -type d -name .assets | sort)
 
 printf '%s\n' "${managed_targets[@]}" | sort -u > "$MANIFEST_FILE"
