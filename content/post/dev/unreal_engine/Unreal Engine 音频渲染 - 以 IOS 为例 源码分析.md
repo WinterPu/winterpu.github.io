@@ -24,7 +24,7 @@ comment:
 toc_desc: 是否关闭文章目录功能，true 为开启
 toc: true
 url_desc: 绝对访问路径
-url: 
+url: /post/dev/unreal_engine/ue-audio-rendering-ios/
 weight_desc: 开启文章置顶，数字越小越靠前
 weight: 
 math_desc: 开启数学公式渲染，可选值： mathjax, katex
@@ -171,11 +171,11 @@ AudioMixer.cpp 中
     
     不同平台会去实现这个线程
     
-	![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image.png)
+	![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image.png>)
     
 - **Audio::FOutputBuffer OutputBuffer**  在 IAudioMixerPlatformInterface  FRunable 线程中
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%201.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 1.png>)
 
 AudioMixerSourceManager
 
@@ -236,7 +236,7 @@ AudioMixerSourceManager
 
 游戏线程中在`CommandsProcessedEvent` 哪儿Wait： MixerSourceManager 的Update，在处理AudioMixerThreadCommand 时候
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%202.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 2.png>)
 
 每个AudioDevice 在 Update 的时候，这个会等待, 检查状态
 
@@ -304,13 +304,13 @@ void FAudioDevice::Update(bool bGameTicking){
 
 比如 IOSAudioDevice
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%203.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 3.png>)
 
 不过当前从CallStack 上来看，IOS 用的应该也是FMixerDevice，然后平台层去写相关资源取用实现
 
 补充一下AudioDevice 初始化时候
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%204.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 4.png>)
 
 ## 音频线程 AudioMixerRenderThread 中
 
@@ -406,19 +406,19 @@ void FAudioDevice::Update(bool bGameTicking){
 	} 
 ```
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%205.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 5.png>)
 
 而 PumpCommandQueue 主要是在 FlushCommandQueue 的时候
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%206.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 6.png>)
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%207.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 7.png>)
 
 ## 音频线程中 影响`CommandsProcessedEvent` 的 AudioRenderEvent
 
 ### 两者的联系
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%208.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 8.png>)
 
 AudioRenderEvent 如果那边一直等待
 
@@ -426,9 +426,9 @@ OutputBuffer.MixNextBuffer() 就会被搁置，调用不到 AudioMixer 的 OnPro
 
 也就调用不到FMixerDevice的 OnProcessAudioStream
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%209.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 9.png>)
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%2010.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 10.png>)
 
 对于音频线程，我们看到问题Log
 
@@ -492,11 +492,11 @@ uint32 IAudioMixerPlatformInterface::RunInternal()
 
 1. AudioRenderEvent→Trigger
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%2011.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 11.png>)
 
 IOS Audio Unit 这边调用：
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%2012.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 12.png>)
 
 这边已经找到了Apple 的系统层面的调用
 
@@ -512,6 +512,6 @@ IOS 是使用AudioUnit ，那么其他平台呢，或者有哪儿些音频Module
 
 主要去看音频的Config
 
-![image.png](/post/dev/unreal_engine/ue-audio-rendering-ios/image%2013.png)
+![image.png](<./assets/Unreal Engine 音频渲染 - 以 IOS 为例 源码分析/image 13.png>)
 
 目前测试 IOS 上使用CoreAudio 不行。
