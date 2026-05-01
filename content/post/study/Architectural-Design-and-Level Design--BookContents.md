@@ -23,7 +23,7 @@ comment:
 toc_desc: 是否关闭文章目录功能，true 为开启
 toc: true
 url_desc: 绝对访问路径
-url: 
+url: /post/study/architectural-design-and-level-design-book-contents/
 weight_desc: 开启文章置顶，数字越小越靠前
 weight: 
 math_desc: 开启数学公式渲染，可选值： mathjax, katex

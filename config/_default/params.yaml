@@ -138,7 +138,7 @@ avatar:
   # 设置显示头像的相对路径
   # Replace the default image and set the url here.
   # url: /imgs/hugo_next_avatar.png
-  url: https://s2.loli.net/2024/11/25/rO6jEXbhW3gk9m7.jpg
+  url: https://github.com/WinterPu/picx-images-hosting/raw/master/Blog/Morty.9rk0cdrt9p.webp
   # 开启头像的圆形显示效果
   # If true, the avatar will be displayed in circle.
   rounded: true

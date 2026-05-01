@@ -3,6 +3,7 @@
 resources/
 public/
 config/development/
+.content-assets-sync/
 
 .DS_Store
 

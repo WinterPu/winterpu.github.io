@@ -20,4 +20,6 @@ EOT
 
 next_boot `cat themes/hugo-theme-next/VERSION`
 
+bash "$(dirname "$0")/scripts/sync-content-assets.sh"
+
 hugo server --port 1414

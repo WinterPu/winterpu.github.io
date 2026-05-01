@@ -17,7 +17,7 @@ comment:
   enable: true
 toc_desc: 是否关闭文章目录功能，true 为开启
 toc: true
-url_desc: 绝对访问路径
+url_desc: 建议填写英文访问路径，例如 /post/ai/understanding-ai/
 url: 
 weight_desc: 开启文章置顶，数字越小越靠前
 weight: 
