@@ -106,6 +106,6 @@ while IFS= read -r source_dir; do
   if [[ $has_base_assets -eq 1 ]]; then
     record_target "$target_dir"
   fi
-done < <(find "$CONTENT_DIR" -type d -name .assets | sort)
+done < <(find "$CONTENT_DIR" -type d -name _assets | sort)
 
 printf '%s\n' "${managed_targets[@]}" | sort -u > "$MANIFEST_FILE"

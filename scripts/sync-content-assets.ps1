@@ -64,7 +64,7 @@ if (Test-Path -LiteralPath $manifestFile) {
 
 Get-ChildItem -Path $staticDir -Filter '.content-assets-sync' -Recurse -File -ErrorAction SilentlyContinue | Remove-Item -Force
 
-$sourceDirs = Get-ChildItem -Path $contentDir -Directory -Recurse | Where-Object { $_.Name -eq '.assets' } | Sort-Object FullName
+$sourceDirs = Get-ChildItem -Path $contentDir -Directory -Recurse | Where-Object { $_.Name -eq '_assets' } | Sort-Object FullName
 foreach ($sourceDir in $sourceDirs) {
     $relativePath = $sourceDir.FullName.Substring($contentDir.Length).TrimStart([char[]]@('\', '/'))
     $targetDir = Join-Path $staticDir $relativePath

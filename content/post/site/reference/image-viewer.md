@@ -21,15 +21,15 @@ toc: false
 
 ## 动物
 
-![cute-scottish-fold-cat](<./.assets/image-viewer/preview_cute-scottish-fold-cat.jpg>)
-![scottish-fold-kitten](<./.assets/image-viewer/preview_scottish-fold-kitten.jpg>)
-![hourses](<./.assets/image-viewer/preview_horses.jpg>)
-![owl-family-background](<./.assets/image-viewer/preview_owl-family-background.jpg>)
+![cute-scottish-fold-cat](<./_assets/image-viewer/preview_cute-scottish-fold-cat.jpg>)
+![scottish-fold-kitten](<./_assets/image-viewer/preview_scottish-fold-kitten.jpg>)
+![hourses](<./_assets/image-viewer/preview_horses.jpg>)
+![owl-family-background](<./_assets/image-viewer/preview_owl-family-background.jpg>)
 
 ## 风景
 
-![luxury-resort-in-maldives](<./.assets/image-viewer/preview_luxury-resort-in-maldives.jpg>)
-![sea-shell](<./.assets/image-viewer/preview_sea-shell.jpg>)
-![the-arch-sunset](<./.assets/image-viewer/preview_the-arch-sunset.jpg>)
-![norway-autumn-landscape](<./.assets/image-viewer/preview_norway-autumn-landscape.jpg>)
+![luxury-resort-in-maldives](<./_assets/image-viewer/preview_luxury-resort-in-maldives.jpg>)
+![sea-shell](<./_assets/image-viewer/preview_sea-shell.jpg>)
+![the-arch-sunset](<./_assets/image-viewer/preview_the-arch-sunset.jpg>)
+![norway-autumn-landscape](<./_assets/image-viewer/preview_norway-autumn-landscape.jpg>)
 

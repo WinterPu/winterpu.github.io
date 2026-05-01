@@ -55,7 +55,7 @@ Execute the `startup.sh` boot start script file which is under site root directo
  [http://localhost:1414/](http://localhost:1414/) will enjoy yourself.
 
 > **Repo Note**
-> This repository stores post images under `content/**/.assets/**` and syncs them into each page's published `assets/` path before preview/build. In markdown, keep `./.assets/...` links for local authoring, and the image render hook rewrites them to the final published `./assets/...` path. The final published image path follows each post front matter `url`, so nested content directories are supported.
+> This repository stores post images under `content/**/_assets/**` and syncs them into each page's published `assets/` path before preview/build. In markdown, keep `./_assets/...` links for local authoring, and the image render hook rewrites them to the final published `./assets/...` path. The final published image path follows each post front matter `url`, so nested content directories are supported.
 
 ```shell
 $ sh startup.sh

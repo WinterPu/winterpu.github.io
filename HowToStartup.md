@@ -4,7 +4,7 @@
 
 ## 推荐方式
 
-当前内容里有一部分图片源文件放在 `content/**/.assets/**`。
+当前内容里有一部分图片源文件放在 `content/**/_assets/**`。
 为了保证本地预览时这些图片能正常访问，启动 `hugo` 之前先同步一次资源。
 
 Windows PowerShell:
@@ -67,9 +67,9 @@ hugo --cleanDestinationDir
 
 ## 说明
 
-- 图片源目录统一使用 `content/**/.assets/**`，文章内也可以继续使用相对路径 `./.assets/...` 方便本地写作。
+- 图片源目录统一使用 `content/**/_assets/**`，文章内也可以继续使用相对路径 `./_assets/...` 方便本地写作。
 - 图片最终发布路径以文章 front matter 里的 `url` 为准，而不是以 markdown 所在目录层级为准，所以多级目录文章也可以正常发布图片。
-- 裸跑 `hugo server` 或 `hugo --cleanDestinationDir` 仍然可以执行，但不会先同步 `content/**/.assets/**` 里的资源。
-- 同步脚本会把 `content/**/.assets/**` 发布到页面对应的 `assets/` 路径。
-- Hugo 渲染阶段会把文章里的 `./.assets/...` 自动改写成页面实际访问的 `./assets/...`，所以本地写作和最终发布可以共存。
-- 如果文章里用了 `./.assets/...` 图片引用，建议使用上面的“先同步再构建”命令。
+- 裸跑 `hugo server` 或 `hugo --cleanDestinationDir` 仍然可以执行，但不会先同步 `content/**/_assets/**` 里的资源。
+- 同步脚本会把 `content/**/_assets/**` 发布到页面对应的 `assets/` 路径。
+- Hugo 渲染阶段会把文章里的 `./_assets/...` 自动改写成页面实际访问的 `./assets/...`，所以本地写作和最终发布可以共存。
+- 如果文章里用了 `./_assets/...` 图片引用，建议使用上面的“先同步再构建”命令。

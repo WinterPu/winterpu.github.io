@@ -1,7 +1,7 @@
 {{ $destination := .Destination }}
-{{ if hasPrefix $destination "./.assets/" }}
-  {{ $destination = replace $destination "./.assets/" "./assets/" }}
-{{ else if hasPrefix $destination "/.assets/" }}
-  {{ $destination = replace $destination "/.assets/" "/assets/" }}
+{{ if hasPrefix $destination "./_assets/" }}
+  {{ $destination = replace $destination "./_assets/" "./assets/" }}
+{{ else if hasPrefix $destination "/_assets/" }}
+  {{ $destination = replace $destination "/_assets/" "/assets/" }}
 {{ end }}
 <img src="/imgs/img-lazy-loading.gif" data-src="{{ $destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
